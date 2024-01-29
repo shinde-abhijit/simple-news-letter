@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Newsletter-Popup</title>
+</head>
+<body>
+    <a onclick="toggleNewsLetter()" class="button">Subscribe Us <img src="./down.svg" id="down"></a>
+    <div class="hidden" id="newsletter">
+        <h2>Join Our Exclusive NEWS</h2>
+        <p>Follow For More</p>
+        <div class="box">
+            <input type="email" placeholder="Enter Email">
+        </div>
+        <div class="box">
+            <button type="submit">Submit</button>
+        </div>
+        <a onclick="toggleNewsLetter()" class="close">
+            <img src="./close.svg" alt="" style="height: 40px;" />
+        </a>
+    </div>
+    
+    
+    
+<script src="./script.js"></script>
+</body>
+</html>
